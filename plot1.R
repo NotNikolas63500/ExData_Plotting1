@@ -47,7 +47,7 @@ HPC_data$datetime <- with(HPC_data,
 hist(HPC_data$Global_active_power,
      col="red",
      main="Global Active Power",
-     breaks=30,
+     breaks=20,
      xlab="Global Active Power in Kilowatts"
   )
 
